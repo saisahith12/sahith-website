@@ -1,9 +1,7 @@
 import logo from "../assets/saisahithLogo.png";
-import { FaLinkedin } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaLinkedinIn } from "react-icons/fa";
+
 import { MdEmail } from "react-icons/md";
-import { FaSquareXTwitter } from "react-icons/fa6";
-import { FaInstagram } from "react-icons/fa";
 
 const Navbar = () => {
   return (
@@ -12,7 +10,7 @@ const Navbar = () => {
         <img className="mx-5 w-32" src={logo} alt="logo" />
       </div>
       <div className="m-8 flex items-center gap-4 text-2xl pr-2 w-22 ">
-        <a href="https://www.linkedin.com/in/sai-sahith-vangala/" target="_blank" rel="noopener noreferrer"><FaLinkedin className="h-8 w-8"/></a>
+        <a href="https://www.linkedin.com/in/sai-sahith-vangala/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn className="h-8 w-8"/></a>
         <a href="mailto:saisahith1711@gmail.com" target="_blank" rel="noopener noreferrer"><MdEmail className="h-8 w-8" /></a>
 
         <a href="https://github.com/saisahith12" target="_blank" rel="noopener noreferrer"><FaGithub className="h-8 w-8" /></a>
